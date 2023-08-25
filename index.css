@@ -1,0 +1,224 @@
+body{
+    background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+   background-size: cover;
+   height: 100vh;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+.mainnav{
+    background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    border-radius: 30px;
+}
+.nav-link{
+    color: aliceblue;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.navbar-toggler{
+    border-color: aliceblue;
+    border-width: 4px;
+}
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+.navbar-toggler-icon :hover{
+    color: aliceblue;
+}
+.navbar-brand{
+    transition: all 0.3s;
+}
+.navbar-brand:hover{
+    transform: scale(1.2);
+    color: #fcfaff;
+}
+.center{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bg{
+background-color: rgb(35, 35, 35,0.5);
+border-radius: 20px;
+backdrop-filter: blur(1.5px);
+
+
+}
+
+img{
+    border-radius: 30px;
+}
+.color{
+    color: aliceblue;
+}
+
+
+  
+.icon-menu {
+    --gap: 5px;
+    --height-bar: 2.5px;
+    --pos-y-bar-one: 0;
+    --pos-y-bar-three: 0;
+    --scale-bar: 1;
+    --rotate-bar-one: 0;
+    --rotate-bar-three: 0;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .bar {
+    position: relative;
+    height: var(--height-bar);
+    width: 100%;
+    border-radius: .5rem;
+    background-color: #fcfaff;
+  }
+  
+  .bar--1 {
+    top: var(--pos-y-bar-one);
+    transform: rotate(var(--rotate-bar-one));
+    transition: top 200ms 100ms, transform 100ms;
+  }
+  
+  .bar--2 {
+    transform: scaleX(var(--scale-bar));
+    transition: transform 150ms 100ms;
+  }
+  
+  .bar--3 {
+    bottom: var(--pos-y-bar-three);
+    transform: rotate(var(--rotate-bar-three));
+    transition: bottom 200ms 100ms, transform 100ms;
+  }
+  
+  .check-icon:checked + .icon-menu > .bar--1 {
+    transition: top 200ms, transform 200ms 100ms;
+  }
+  
+  .check-icon:checked + .icon-menu > .bar--3 {
+    transition: bottom 200ms, transform 200ms 100ms;
+  }
+  
+  .check-icon:checked + .icon-menu {
+    --pos-y-bar-one: calc(var(--gap) + var(--height-bar));
+    --pos-y-bar-three: calc(var(--gap) + var(--height-bar));
+    --scale-bar: 0;
+    --rotate-bar-one: 45deg;
+    --rotate-bar-three: -45deg;
+  }
+  /* FIN ICON-MENU */
+  
+  .color{
+    color: #fcfaff;
+  }
+
+
+.material-symbols-outlined{
+    height: 1px;
+    width: 100%;
+}
+
+.hover:hover{
+    transform: scale(1.5);
+}
+.long{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/nanhu-mountain-taiwan-taroko-national-park-glacier-2560x1080-4560.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card1 {
+    display: flex;
+    height: 70px;
+    width: 270px;
+  }
+  
+  .card1 svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .card1 .social-link1,.card1 .social-link2,.card1 .social-link3,.card1 .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .card1 svg {
+    transform: scale(1);
+  }
+  
+  .card1 .social-link1:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card1 .social-link2:hover {
+    background-color: #00ccff;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card1 .social-link3:hover {
+    background-color: #5865f2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card1 .social-link4:hover {
+    background-color: #12a50b;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  .s{
+    transition: all 0.3s;
+  }
+  .s:hover{
+    color: #5865f2;
+    transform: scale(1.2);
+  }
